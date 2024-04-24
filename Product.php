@@ -78,6 +78,8 @@ class Electronic extends Product{
 $book = new Book("Frankenstein", "$300", "copy", "Mary Shelley", "978495876215", "Lackington, Hughes, Harding, Mavor & Jones");
 $electronic = new Electronic("iPhone 15", "$1000", "piece", "Apple");
 
+//you can use setter method in this line
+
 echo "Book: ".$book->getName() . ", Price: ".$book->getPrice() . ", Unit: ".$book->getUnit();
 echo "<br>";
 echo "Electronic: ".$electronic->getName() . ", Price: ".$electronic->getPrice() . ", Unit: ".$electronic->getUnit();
